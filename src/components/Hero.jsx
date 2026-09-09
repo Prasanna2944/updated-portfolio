@@ -50,9 +50,10 @@ function Hero() {
               <ArrowDown size={18} />
             </button>
 
+            {/* Download Resume */}
             <a
               className="btn btn-secondary"
-              href="/resume/Prasanna-Venkatesh-Resume.pdf"
+              href={`${import.meta.env.BASE_URL}resume/Prasanna-Venkatesh-Resume.pdf`}
               download
             >
               Download Resume
@@ -68,6 +69,7 @@ function Hero() {
               target="_blank"
               rel="noreferrer"
               aria-label="GitHub"
+              title="GitHub"
             >
               <FaGithub size={21} />
             </a>
@@ -78,6 +80,7 @@ function Hero() {
               target="_blank"
               rel="noreferrer"
               aria-label="LinkedIn"
+              title="LinkedIn"
             >
               <FaLinkedin size={21} />
             </a>
@@ -86,6 +89,7 @@ function Hero() {
             <a
               href="mailto:prasanna2944@gmail.com"
               aria-label="Email"
+              title="Email"
             >
               <Mail size={20} />
             </a>
@@ -106,7 +110,7 @@ function Hero() {
             <div className="profile-image-wrapper">
               <img
                 src={profileImage}
-                alt="Professional profile"
+                alt="Prasanna Venkatesh - Full Stack and Mobile Developer"
                 className="profile-image"
               />
             </div>
