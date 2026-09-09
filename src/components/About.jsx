@@ -67,12 +67,6 @@ function About() {
               parts of a software system work together.
             </p>
 
-            <p>
-              My Master's project, SEDDY — Your Service Buddy, allowed me
-              to work on a real-world mobile application concept focused
-              on roadside assistance and connecting drivers with nearby
-              mechanics.
-            </p>
           </motion.div>
 
           <div className="highlight-grid">
